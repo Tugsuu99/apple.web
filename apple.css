@@ -1,0 +1,974 @@
+body {
+  font-family: "Inter", sans-serif;
+  /* width: 100vw; */
+  /* max-width: 1920px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+/* .background {
+  width: 100vw;
+  max-width: 1920px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  position: relative; */
+/* } */
+.supports {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  gap: 24px;
+  width: 100vw;
+  height: 44px;
+  font-weight: 400;
+  font-size: 12px;
+  justify-content: center;
+  line-height: 60px;
+  font-style: normal;
+  background-color: #f5f5f7cc;
+  align-items: center;
+}
+.TH {
+  width: 70px;
+}
+.T1 {
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  top: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 20px;
+  padding-block: 12px;
+  gap: 4px;
+  padding: 16px 31px;
+  font-weight: 500;
+  /* margin: 0; */
+}
+.alim {
+  color: black;
+  height: 20px;
+  width: 20px;
+}
+.headspace {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+.searchhead {
+  width: 15px;
+  height: 15px;
+  background-image: url(./apple-images/search.png);
+  background-position: center;
+  background-size: cover;
+}
+.applebag {
+  padding-top: 20px;
+}
+.first {
+  background-image: url(./apple-images/Background.png);
+  width: 1920px;
+  height: 692px;
+  gap: 12px;
+  display: flex;
+  padding-top: 50px;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  background-size: cover;
+  padding-block: 55px 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.title1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  width: 405px;
+  /* height: 60px; */
+  line-height: 60px;
+  unicode-bidi: isolate;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 0;
+}
+.ft1 {
+  font-weight: 400;
+  size: 24px;
+  color: white;
+  box-sizing: border-box;
+  unicode-bidi: isolate;
+  margin-block: 4px 16px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 405px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 24px;
+}
+.iphone1 {
+  height: 172px;
+  width: 405px;
+  /* position: absolute;
+  top: 151px;
+  left: 757px;
+  gap: 20px;
+/*  */
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.learn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.buy {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.second {
+  background-image: url(./apple-images/second.png);
+  width: 100vw;
+  /* width: 1920px; */
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 12px;
+  display: flex;
+  padding-top: 50px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  padding-block: 55px 36px;
+}
+.title2 {
+  color: white;
+  font-size: 52px;
+  font-family: "Inter", sans-serif;
+  width: 405px;
+  /* height: 60px; */
+  line-height: 60px;
+  unicode-bidi: isolate;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+}
+
+.ft2 {
+  font-weight: 400;
+  size: 24px;
+  color: white;
+  box-sizing: border-box;
+  unicode-bidi: isolate;
+  margin-block: 4px 16px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 405px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 24px;
+}
+.iphone2 {
+  height: 172px;
+  width: 405px;
+}
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.learn2 {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.buy2 {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.third {
+  background-image: url(./apple-images/third.png);
+  height: 692px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  gap: 16px;
+  justify-content: center;
+}
+.title3 {
+  width: 405px;
+  height: 60px;
+  font-size: 52px;
+  font-weight: 600;
+}
+.ft3 {
+  width: 405px;
+  height: 32px;
+  font-size: 24px;
+}
+.button3 {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.T3 {
+  padding-bottom: 50px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.pad {
+  background-image: url(./apple-images/pad.png);
+  height: 580px;
+  width: 49vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+.padhead {
+  padding-top: 50px;
+}
+.padbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.padlearn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.padbuy {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.pod {
+  background-image: url(./apple-images/airpod.png);
+  height: 580px;
+  width: 49vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  gap: 15px;
+}
+.podhead {
+  font-size: 36px;
+  color: white;
+}
+.podt {
+  font-size: 18px;
+  color: white;
+}
+.podbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.podlearn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.podbuy {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.pod2 {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.watch {
+  background-image: url(./apple-images/iwatch.png);
+  height: 580px;
+  width: 49vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+}
+.watchhead {
+  padding-top: 50px;
+}
+.watcht {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.wbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.wlearn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.wbuy {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.mac {
+  background-image: url(./apple-images/mac.png);
+  height: 580px;
+  width: 49vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+.machead {
+  font-size: 36px;
+  color: black;
+  padding-top: 50px;
+}
+.mact {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.macbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.maclearn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.macbuy {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.trade {
+  background-image: url(./apple-images/trade.png);
+  height: 580px;
+  width: 49vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+.tradehead {
+  padding-top: 50px;
+}
+.tradet {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.tradelearn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.card {
+  background-image: url(./apple-images/card.png);
+  height: 580px;
+  width: 49vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+.cardhead {
+  padding-top: 50px;
+}
+.cardt {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.cardbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-left: 100px;
+}
+.cardlearn {
+  background-color: #0071e3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+}
+.cardbuy {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.media {
+  width: 100vw;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.napoleon {
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+  background-image: url(./apple-images/napoleon.png);
+  scroll-snap-align: center;
+}
+.fly {
+  background-image: url(./apple-images/flyme.png);
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.blitz {
+  background-image: url(./apple-images/blitz.png);
+  height: 668px;
+  width: 1250px;
+  /* color: white; */
+  flex-shrink: 0;
+  /* font-size: 20px; */
+  position: relative;
+  scroll-snap-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.messi {
+  background-image: url(./apple-images/messi.jpg);
+  background-position: center;
+  background-size: cover;
+  scroll-snap-align: center;
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  position: relative;
+}
+.will {
+  background-image: url(./apple-images/will.jpg);
+  scroll-snap-align: center;
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.gorge {
+  background-image: url(./apple-images/gorge.png);
+  scroll-snap-align: center;
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.dots {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+}
+.dot1 {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+  box-sizing: border-box;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dot2 {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+  box-sizing: border-box;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dot3 {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+  box-sizing: border-box;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dot4 {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+  box-sizing: border-box;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dot5 {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: ease 250ms;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dot6 {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: ease 250ms;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navs {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery {
+  width: 100vw;
+
+  display: flex;
+  column-gap: 10px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.nba {
+  background-image: url(./apple-images/kyrie.jpg);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.football {
+  background-image: url(./apple-images/jude.jpg);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.rose {
+  background-image: url(./apple-images/roseapple.jpg);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.rb {
+  background-image: url(./apple-images/rb.png);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.sport {
+  background-image: url(./apple-images/sport.png);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.gradient {
+  background-image: url(./apple-images/gradient.png);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.arcade {
+  background-image: url(./apple-images/arcade.png);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+}
+.goat {
+  background-image: url(./apple-images/goat.jpg);
+  height: 236px;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  color: white;
+}
+@media only screen and (max-width: 430px) {
+  .nav-item {
+    display: none;
+  }
+  .headspace {
+    gap: 20px;
+    padding-right: 10%;
+  }
+  .applebag {
+    padding-top: 22px;
+  }
+  .alim {
+    padding-right: 20px;
+  }
+  .first {
+    background-image: url(./apple-images/mobileb.png);
+    width: 100vw;
+    height: 500px;
+    position: relative;
+  }
+  .iphone1 {
+    position: absolute;
+    top: 370px;
+    /* width: 241px;
+    height: 114px; */
+  }
+  .title1 {
+    font-size: 36px;
+  }
+  .ft1 {
+    font: 18px;
+  }
+  .second {
+    background-image: url(./apple-images/mobileb2.png);
+    width: 100vw;
+    height: 500px;
+    position: relative;
+  }
+  .iphone2 {
+    gap: 16px;
+    width: 241px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    position: absolute;
+    top: 10px;
+  }
+  .title2 {
+    font-size: 30px;
+    height: 36px;
+    width: 143px;
+  }
+
+  .buttons2 {
+    padding-left: 10px;
+  }
+  .supports {
+    display: flex;
+    justify-content: space-between;
+  }
+  .pad {
+    width: 100vw;
+    height: 500px;
+  }
+  .pod {
+    background-image: url(./apple-images/mobilepod.png);
+    width: 100vw;
+    height: 500px;
+  }
+  .watch {
+    width: 100vw;
+    height: 500px;
+    background-image: url(./apple-images/mobilewatch.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .mac {
+    width: 100vw;
+    height: 500px;
+  }
+  .trade {
+    width: 100vw;
+    height: 500px;
+  }
+  .card {
+    width: 100vw;
+    height: 500px;
+  }
+  .napoleon {
+    width: 274px;
+    height: 445px;
+    background-image: url(./apple-images/Napoleon-poster.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  .blitz {
+    background-image: url(./apple-images/mobileblitz.png);
+    width: 274px;
+    height: 445px;
+  }
+  .fly {
+    background-image: url(./apple-images/mobiletab.png);
+    width: 274px;
+    height: 445px;
+  }
+  .messi {
+    background-image: url(./apple-images/mobiletab2.png);
+    width: 274px;
+    height: 445px;
+  }
+  .will {
+    background-image: url(./apple-images/mobiletab3.png);
+    width: 274px;
+    height: 445px;
+  }
+  .gorge {
+    background-image: url(./apple-images/mobilegorge.jpg);
+    width: 274px;
+    height: 445px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-item {
+    display: none;
+  }
+  .supports {
+    display: flex;
+    justify-content: space-between;
+  }
+  .headspace {
+    gap: 20px;
+    padding-right: 10%;
+  }
+  .applebag {
+    padding-top: 22px;
+  }
+  .alim {
+    padding-right: 20px;
+  }
+  .first {
+    width: 100vw;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./apple-images/tabletb.png);
+  }
+  .second {
+    background-image: url(./apple-images/tabletb2.png);
+    width: 100vw;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+  }
+  .iphone2 {
+    gap: 0px;
+  }
+  .pod {
+    background-image: url(./apple-images/mobilepod.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .napoleon {
+    width: 689px;
+    height: 368px;
+    background-position: center;
+    background-size: cover;
+  }
+  .blitz {
+    width: 689px;
+    height: 368px;
+  }
+  .fly {
+    width: 689px;
+    height: 368px;
+  }
+  .messi {
+    width: 689px;
+    height: 368px;
+  }
+  .will {
+    width: 689px;
+    height: 368px;
+  }
+  .gorge {
+    width: 689px;
+    height: 368px;
+  }
+}
+.alim {
+  width: 30px;
+  /* height: 32px; */
+  /* position: absolute; */
+  /* top: 3px;
+  padding-right: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

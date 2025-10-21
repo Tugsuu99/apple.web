@@ -1,0 +1,662 @@
+body {
+  width: 1920px;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  /* width: 100vw; */
+  /* max-width: 1920px; */
+  /* width: 1920px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  background-color: #f5f5f7;
+  flex-direction: column;
+}
+.supports {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  gap: 24px;
+  width: 100vw;
+  height: 44px;
+  font-weight: 400;
+  font-size: 12px;
+  justify-content: center;
+  line-height: 60px;
+  font-style: normal;
+  background-color: #f5f5f7cc;
+  align-items: center;
+}
+.T1 {
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 30px;
+  padding-block: 12px;
+  gap: 4px;
+  padding: 16px 31px;
+  font-weight: 500;
+  background-color: white;
+}
+.firstback {
+  background-image: url(./apple-images/firstback.png);
+  width: 100vw;
+  height: 75px;
+}
+.title {
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  font-size: 44px;
+  font-weight: 700;
+  color: #6e6e73;
+}
+.color {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  color: transparent;
+  background-clip: text;
+}
+.headhelp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.productlist {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding-left: 140px;
+  padding-right: 140px;
+  width: 100vw;
+  height: 146px;
+}
+.productcard {
+  height: 146px;
+  width: 136px;
+  text-align: center;
+  gap: 16px;
+}
+.gaps {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.title2 {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  color: #6e6e73;
+  padding-left: 140px;
+}
+.alim {
+  color: black;
+  height: 40px;
+  width: 14px;
+}
+.sell {
+  display: flex;
+  flex-direction: row;
+  padding-left: 140px;
+  padding-top: 20px;
+  gap: 20px;
+  width: 100vw;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  /* align-items: center; */
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  box-sizing: border-box;
+}
+.ip16 {
+  background-image: url(./apple-images/Listitem.png);
+  width: 480px;
+  height: 500px;
+}
+.watch10 {
+  background-image: url(./apple-images/listitem1.png);
+  width: 480px;
+  height: 500px;
+}
+.ipadmini {
+  background-image: url(./apple-images/listitem2.png);
+  width: 480px;
+  height: 500px;
+}
+.macpro {
+  background-image: url(./apple-images/mbp16-silver-select-202410.jpeg);
+  width: 480px;
+  height: 500px;
+  position: relative;
+}
+.macframe {
+  width: 220px;
+  height: 88px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.title3 {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  /* color: #6e6e73;
+  padding-left: 140px; */
+}
+.secondproducts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 140px;
+}
+.sell2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.store21 {
+  background-image: url(/apple-images/store-card-40-holiday-engraving-202411.png);
+  width: 313px;
+  height: 500px;
+  border-radius: 18px;
+  position: relative;
+}
+.item2name {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  top: 53px;
+  left: 30px;
+  width: 197px;
+  height: 66px;
+}
+.max {
+  background-color: white;
+  border-radius: 18px;
+  width: 313px;
+  height: 500px;
+  position: relative;
+}
+.maximg {
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: 71px;
+  left: 41.5px;
+}
+.maxred {
+  color: #b64400;
+  width: 257px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.maxname {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.maxprice {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 60px;
+}
+.maxinfo {
+  width: 257px;
+  height: 109px;
+  position: absolute;
+  top: 359px;
+  left: 28px;
+  gap: 32px;
+}
+.podpro2 {
+  background-color: white;
+  border-radius: 18px;
+  width: 313px;
+  height: 500px;
+  position: relative;
+}
+.pod2img {
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: 71px;
+  left: 41.5px;
+}
+.podred {
+  color: #b64400;
+  width: 257px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.podname {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.podprice {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 60px;
+}
+.podinfo {
+  width: 257px;
+  height: 109px;
+  position: absolute;
+  top: 359px;
+  left: 28px;
+  gap: 32px;
+}
+.pod4 {
+  background-color: white;
+  border-radius: 18px;
+  width: 313px;
+  height: 500px;
+  position: relative;
+}
+.pod4img {
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: 71px;
+  left: 41.5px;
+}
+.pod4red {
+  color: #b64400;
+  width: 257px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.pod4name {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.pod4price {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 60px;
+}
+.pod4info {
+  width: 257px;
+  height: 109px;
+  position: absolute;
+  top: 359px;
+  left: 28px;
+  gap: 32px;
+}
+.pen {
+  background-color: white;
+  border-radius: 18px;
+  width: 313px;
+  height: 500px;
+  position: relative;
+}
+.penimg {
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: 71px;
+  left: 41.5px;
+}
+.penred {
+  color: #b64400;
+  width: 257px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.penname {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.penprice {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 60px;
+}
+.peninfo {
+  width: 257px;
+  height: 109px;
+  position: absolute;
+  top: 359px;
+  left: 28px;
+  gap: 32px;
+}
+.title4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6e6e73;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.thirdproducts {
+  padding-left: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.store3 {
+  background-image: url(./apple-images/store-card-40-holiday-quick-picks-202411.png);
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  position: relative;
+}
+.item3name {
+  width: 197px;
+  height: 636px;
+  position: absolute;
+  top: 53px;
+  left: 30px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.sell3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.case {
+  height: 500px;
+  width: 313px;
+  background-color: white;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.caseimg {
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: 71px;
+}
+.choise {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  border: solid yellow;
+}
+.casenew {
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+}
+.casename {
+  font-size: 18px;
+  font-weight: 700;
+}
+.caseune {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: end;
+  padding-top: 32px;
+}
+.tags {
+  gap: 32px;
+  position: absolute;
+  top: 359px;
+  left: 28px;
+}
+.homepod {
+  height: 500px;
+  width: 313px;
+  background-color: white;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeimg {
+  height: 230px;
+  width: 230px;
+  padding-top: 71px;
+}
+.choise2 {
+  border: solid yellow;
+  background-color: yellow;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+}
+.tags2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 70px;
+  width: 257px;
+}
+.homename {
+  font-size: 18px;
+  font-weight: 700;
+}
+.homeune {
+  font-size: 14px;
+  font-weight: 400;
+}
+.folio {
+  background-color: white;
+  border-radius: 18px;
+  width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.folioimg {
+  width: 230px;
+  height: 230px;
+  padding-top: 71px;
+}
+.folname {
+  font-size: 18px;
+  font-weight: 700;
+}
+.folune {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 32px;
+}
+.tags3 {
+  width: 257px;
+  padding-top: 70px;
+  height: 109px;
+}
+.solo {
+  background-color: white;
+  border-radius: 18px;
+  width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.soloimg {
+  width: 230px;
+  height: 230px;
+  padding-top: 71px;
+}
+.soloname {
+  font-size: 18px;
+  font-weight: 700;
+}
+.soloune {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 32px;
+}
+.tags4 {
+  width: 257px;
+  padding-top: 70px;
+  height: 109px;
+}
+.solonew {
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+}
+.title5 {
+  display: flex;
+  flex-direction: row;
+  color: #6e6e73;
+  gap: 4px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.forthproducts {
+  padding-left: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sell4 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 500px;
+  gap: 20px;
+}
+.cardsname {
+  width: 480px;
+  height: 500px;
+  background-image: url(./apple-images/store-card-50-holiday-delivery-pickup-202411.png);
+  background-size: cover;
+  background-position: center;
+}
+.cardtext {
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 50px;
+  width: 305px;
+  height: 130px;
+}
+.cardsname2 {
+  display: flex;
+  flex-direction: column;
+  width: 313px;
+  height: 500px;
+  gap: 20px;
+}
+.cardtext2 {
+  width: 313px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: white;
+  text-align: center;
+  border-radius: 18px;
+}
+.tt {
+  width: 238px;
+  height: 84px;
+}
+.cardtext23 {
+  width: 313px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: white;
+  text-align: center;
+  border-radius: 18px;
+}
+.tt1 {
+  width: 238px;
+  height: 84px;
+}
+.cardsname3 {
+  display: flex;
+  flex-direction: column;
+  width: 313px;
+  height: 500px;
+  gap: 20px;
+}
+.cardtext3 {
+  width: 313px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: white;
+  text-align: center;
+  border-radius: 18px;
+}
+.cardtext33 {
+  width: 313px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: white;
+  text-align: center;
+  border-radius: 18px;
+}
+.tt3 {
+  width: 236px;
+  height: 84px;
+}
+.tt33 {
+  width: 244px;
+  height: 112px;
+}
+.card4 {
+  background-image: url(./apple-images/store-card-50-holiday-trade-in-202411.png);
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.card4tt {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 54px;
+  width: 330px;
+  height: 96px;
+}
+.title6 {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  font-weight: 700;
+  gap: 4px;
+}
+.fifth {
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  gap: 24px;
+}
