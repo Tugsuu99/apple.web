@@ -660,3 +660,83 @@ body {
   padding-left: 140px;
   gap: 24px;
 }
+.sell5 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.fcard1 {
+  background-image: url(./apple-images/store-card-50-holiday-apple-music-202411.png);
+  width: 448px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 10px;
+  border-radius: 18px;
+}
+.fct11 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+}
+.fct12 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.fct13 {
+  font-size: 17px;
+  font-weight: 400;
+  width: 259px;
+}
+.fct {
+  padding-top: 32px;
+  padding-left: 30px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.fcard2 {
+  background-image: url(./apple-images/store-card-50-holiday-apple-tv-202411.png);
+  width: 448px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 10px;
+  border-radius: 18px;
+}
+.fct2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 32px;
+  padding-left: 30px;
+}
+.fct21 {
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+.fct22 {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+}
+.fcard3 {
+  background-image: url(./apple-images/store-card-50-subscriptions-202108_GEO_US.png);
+  width: 448px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 10px;
+  border-radius: 18px;
+}
+.fct3 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 32px;
+  padding-left: 30px;
+  width: 290px;
+}

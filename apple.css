@@ -707,6 +707,8 @@ body {
   background-size: cover;
   flex-shrink: 0;
   position: relative;
+  font-size: 20px;
+  color: white;
 }
 .football {
   background-image: url(./apple-images/jude.jpg);
@@ -716,6 +718,8 @@ body {
   background-size: cover;
   flex-shrink: 0;
   position: relative;
+  color: white;
+  text-align: center;
 }
 .rose {
   background-image: url(./apple-images/roseapple.jpg);
@@ -771,6 +775,14 @@ body {
   flex-shrink: 0;
   position: relative;
   color: white;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 700;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
 }
 @media only screen and (max-width: 430px) {
   .nav-item {
